@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercise20 {
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
 //        20. Write a Java program to convert a decimal number to hexadecimal number.
 //        Input Data:
@@ -14,6 +14,6 @@ public class Exercise20 {
         System.out.print("Input a Decimal Number: ");
         int decimal = input.nextInt();
 
-        System.out.println("Hexadecimal number is: "+Integer.toHexString(decimal));
+        System.out.println("Hexadecimal number is: " + Integer.toHexString(decimal));
     }
 }
